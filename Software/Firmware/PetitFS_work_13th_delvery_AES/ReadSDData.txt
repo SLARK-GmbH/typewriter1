@@ -1,0 +1,310 @@
+871 Serial display started
+dj.index: 0
+dj.fn: 2400
+dj.sclust: 0
+dj.clust: 2
+dj.sect: 16384
+1032 readdir pfs_result: 0 - ENUK.TXT - 113
+1087 no of all files: ENUK.TXT
+1828 open pfs_result: 0
+1229 fname: ENUK.txt
+ 40 D9 51 D8 E6 2A 09 02 C2 73 49 23 9F 86 4A A5 C0 C1 49 0C 90 43 31 72 A2 25 51 FD 4F C6 6E 12
+Time to read this file: 414
+1447 fname: 
+USTODE_1.BIK - 0
+1505 fname: 
+USTODE_1.BIK - 0
+1032 readdir pfs_result: 0 - USTODE_1.BIK - 256
+1087 no of all files: USTODE_1.BIK
+1828 open pfs_result: 0
+1118 open pfs_result: 0
+1145 write bik data
+Time to read this file: 253
+1447 fname: 
+PURISA~1.SIN - 0
+1505 fname: 
+PURISA~1.SIN - 0
+1032 readdir pfs_result: 0 - PURISA~1.SIN - 3400
+1087 no of all files: PURISA~1.SIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 121
+1447 fname: 
+USTOUS.BI2 - 0
+1505 fname: 
+USTOUS.BI2 - 0
+1032 readdir pfs_result: 0 - USTOUS.BI2 - 256
+1087 no of all files: USTOUS.BI2
+1828 open pfs_result: 0
+Time to read this file: 113
+1447 fname: 
+PURISA~1.OIN - 0
+1505 fname: 
+PURISA~1.OIN - 0
+1032 readdir pfs_result: 0 - PURISA~1.OIN - 3792
+1087 no of all files: PURISA~1.OIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 149
+1447 fname: 
+PURISA~1.KIN - 0
+1505 fname: 
+PURISA~1.KIN - 0
+1032 readdir pfs_result: 0 - PURISA~1.KIN - 4800
+1087 no of all files: PURISA~1.KIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 156
+1447 fname: 
+GANGES.TXT - 0
+1505 fname: 
+GANGES.TXT - 0
+1032 readdir pfs_result: 0 - GANGES.TXT - 29
+1087 no of all files: GANGES.TXT
+1828 open pfs_result: 0
+1229 fname: GANGES.txt
+ 40 D9 51 D8 E6 2A 09 02 C2 73 49 23 9F 86 4A A5 C0 C1 49 0C 90 43 31 72 A2 25 51 FD 4F C6 6E 12
+Time to read this file: 184
+1447 fname: 
+LIN_TEJO.TXT - 0
+1505 fname: 
+LIN_TEJO.TXT - 0
+1032 readdir pfs_result: 0 - LIN_TEJO.TXT - 87
+1087 no of all files: LIN_TEJO.TXT
+1828 open pfs_result: 0
+1229 fname: LIN_TEJO.txt
+ 40 D9 51 D8 E6 2A 09 02 C2 73 49 23 9F 86 4A A5 C0 C1 49 0C 90 43 31 72 A2 25 51 FD 4F C6 6E 12
+Time to read this file: 195
+1447 fname: 
+MAC_TEJO.TXT - 0
+1505 fname: 
+MAC_TEJO.TXT - 0
+1032 readdir pfs_result: 0 - MAC_TEJO.TXT - 43
+1087 no of all files: MAC_TEJO.TXT
+1828 open pfs_result: 0
+1229 fname: MAC_TEJO.txt
+ 40 D9 51 D8 E6 2A 09 02 C2 73 49 23 9F 86 4A A5 C0 C1 49 0C 90 43 31 72 A2 25 51 FD 4F C6 6E 12
+Time to read this file: 305
+1447 fname: 
+ORINOCO.TXT - 0
+1505 fname: 
+ORINOCO.TXT - 0
+1032 readdir pfs_result: 0 - ORINOCO.TXT - 30
+1087 no of all files: ORINOCO.TXT
+1828 open pfs_result: 0
+1229 fname: ORINOCO.txt
+ 40 D9 51 D8 E6 2A 09 02 C2 73 49 23 9F 86 4A A5 C0 C1 49 0C 90 43 31 72 A2 25 51 FD 4F C6 6E 12
+Time to read this file: 213
+1447 fname: 
+REKHAZ~1.OIP - 0
+1505 fname: 
+REKHAZ~1.OIP - 0
+1032 readdir pfs_result: 0 - REKHAZ~1.OIP - 21696
+1087 no of all files: REKHAZ~1.OIP
+1828 open pfs_result: 0
+Time to read this file: 197
+1447 fname: 
+LATO-R~1.BIN - 0
+1505 fname: 
+LATO-R~1.BIN - 0
+1032 readdir pfs_result: 0 - LATO-R~1.BIN - 21312
+1087 no of all files: LATO-R~1.BIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+1811 Serial save_fonts_data display started
+Time to read this file: 87781
+1447 fname: 
+REKHAZ~1.MIP - 0
+1505 fname: 
+REKHAZ~1.MIP - 0
+1032 readdir pfs_result: 0 - REKHAZ~1.MIP - 16276
+1087 no of all files: REKHAZ~1.MIP
+1828 open pfs_result: 0
+Time to read this file: 219
+1447 fname: 
+REKHAZ~2.SIP - 0
+1505 fname: 
+REKHAZ~2.SIP - 0
+1032 readdir pfs_result: 0 - REKHAZ~2.SIP - 11856
+1087 no of all files: REKHAZ~2.SIP
+1828 open pfs_result: 0
+Time to read this file: 230
+1447 fname: 
+ARIAL1~1.SIN - 0
+1505 fname: 
+ARIAL1~1.SIN - 0
+1032 readdir pfs_result: 0 - ARIAL1~1.SIN - 5952
+1087 no of all files: ARIAL1~1.SIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 235
+1447 fname: 
+HALLFE~1.OIN - 0
+1505 fname: 
+HALLFE~1.OIN - 0
+1032 readdir pfs_result: 0 - HALLFE~1.OIN - 3135
+1087 no of all files: HALLFE~1.OIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 252
+1447 fname: 
+ARIAL1~2.SIN - 0
+1505 fname: 
+ARIAL1~2.SIN - 0
+1032 readdir pfs_result: 0 - ARIAL1~2.SIN - 3736
+1087 no of all files: ARIAL1~2.SIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 354
+1447 fname: 
+RINKYD~1.OIN - 0
+1505 fname: 
+RINKYD~1.OIN - 0
+1032 readdir pfs_result: 0 - RINKYD~1.OIN - 3168
+1087 no of all files: RINKYD~1.OIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 275
+1447 fname: 
+ARIAL_~1.OIN - 0
+1505 fname: 
+ARIAL_~1.OIN - 0
+1032 readdir pfs_result: 0 - ARIAL_~1.OIN - 3168
+1087 no of all files: ARIAL_~1.OIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 282
+1447 fname: 
+ARIAL_~2.OIN - 0
+1505 fname: 
+ARIAL_~2.OIN - 0
+1032 readdir pfs_result: 0 - ARIAL_~2.OIN - 3135
+1087 no of all files: ARIAL_~2.OIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 293
+1447 fname: 
+NIMBUS~3.OIN - 0
+1505 fname: 
+NIMBUS~3.OIN - 0
+1032 readdir pfs_result: 0 - NIMBUS~3.OIN - 1536
+1087 no of all files: NIMBUS~3.OIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 316
+1447 fname: 
+LATO-R~1.OIN - 0
+1505 fname: 
+LATO-R~1.OIN - 0
+1032 readdir pfs_result: 0 - LATO-R~1.OIN - 21264
+1087 no of all files: LATO-R~1.OIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 323
+1447 fname: 
+CALLIG~1.OIN - 0
+1505 fname: 
+CALLIG~1.OIN - 0
+1032 readdir pfs_result: 0 - CALLIG~1.OIN - 1920
+1087 no of all files: CALLIG~1.OIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 344
+1447 fname: 
+NIMBUS~1.OIN - 0
+1505 fname: 
+NIMBUS~1.OIN - 0
+1032 readdir pfs_result: 0 - NIMBUS~1.OIN - 2208
+1087 no of all files: NIMBUS~1.OIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 361
+1447 fname: 
+NIMBUS~2.OIN - 0
+1505 fname: 
+NIMBUS~2.OIN - 0
+1032 readdir pfs_result: 0 - NIMBUS~2.OIN - 2231
+1087 no of all files: NIMBUS~2.OIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 467
+1447 fname: 
+CENTUR~1.OIN - 0
+1505 fname: 
+CENTUR~1.OIN - 0
+1032 readdir pfs_result: 0 - CENTUR~1.OIN - 2112
+1087 no of all files: CENTUR~1.OIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 391
+1447 fname: 
+HOMEMA~1.OIN - 0
+1505 fname: 
+HOMEMA~1.OIN - 0
+1032 readdir pfs_result: 0 - HOMEMA~1.OIN - 1632
+1087 no of all files: HOMEMA~1.OIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 409
+1447 fname: 
+LATO_T~1.OIN - 0
+1505 fname: 
+LATO_T~1.OIN - 0
+1032 readdir pfs_result: 0 - LATO_T~1.OIN - 1536
+1087 no of all files: LATO_T~1.OIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 412
+1447 fname: 
+LATO-R~1.1IN - 0
+1505 fname: 
+LATO-R~1.1IN - 0
+1032 readdir pfs_result: 0 - LATO-R~1.1IN - 21312
+1087 no of all files: LATO-R~1.1IN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 416
+1447 fname: 
+TAHOMA~1.OIN - 0
+1505 fname: 
+TAHOMA~1.OIN - 0
+1032 readdir pfs_result: 0 - TAHOMA~1.OIN - 19008
+1087 no of all files: TAHOMA~1.OIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 440
+1447 fname: 
+LATO-R~1.BIP - 0
+1505 fname: 
+LATO-R~1.BIP - 0
+1032 readdir pfs_result: 0 - LATO-R~1.BIP - 98496
+1087 no of all files: LATO-R~1.BIP
+1828 open pfs_result: 0
+1811 Serial save_fonts_data display started
+Time to read this file: 407478
+1447 fname: 
+LATO_T~2.OIN - 0
+1505 fname: 
+LATO_T~2.OIN - 0
+1032 readdir pfs_result: 0 - LATO_T~2.OIN - 2496
+1087 no of all files: LATO_T~2.OIN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 457
+1447 fname: 
+XEROX_~1.1IN - 0
+1505 fname: 
+XEROX_~1.1IN - 0
+1032 readdir pfs_result: 0 - XEROX_~1.1IN - 21312
+1087 no of all files: XEROX_~1.1IN
+1823 open pfs_result: 3
+1828 open pfs_result: 0
+Time to read this file: 594
+1447 fname: 
+ - 0
+1505 fname: 
+ - 0
+Time to read all files: 504635
+
+
+

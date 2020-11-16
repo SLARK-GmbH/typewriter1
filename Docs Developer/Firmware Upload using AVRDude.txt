@@ -1,0 +1,10 @@
+below the commands to download the build:
+    /home/me/.arduino15/packages/arduino/tools/avrdude/6.3.0-arduino14/bin/avrdude -C/home/me/.arduino15/packages/arduino/tools/avrdude/6.3.0-arduino14/etc/avrdude.conf -v -patmega32u4 -cusbtiny -Uflash:w:/tmp/arduino_build_6710/PetitFS_work_8th_delvery_AES.ino.hex:i
+    !!! remember to modify the number in >>> arduino_build_6710 <<< - it changes each time Arduino IDE is loaded !!!
+    and to set apprioprate values for fuses:
+	
+Upload Firmware File (check COM Port number !!)	
+    avrdude -Cavrdude.conf -v -patmega32u4 -Uflash:w:PetitFS_work_12th_delvery_AES.ino.hex:i -b1000000 -PCOM15 -cstk500v1
+	
+Set Flags (check COM Port number !!)
+	avrdude -v -patmega32u4 -Uhfuse:w:0xD9:m -Ulfuse:w:0xFF:m -Uefuse:w:0xF3:m -b1000000 -PCOM15 -cstk500v1

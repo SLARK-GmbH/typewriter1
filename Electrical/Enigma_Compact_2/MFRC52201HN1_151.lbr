@@ -1,0 +1,220 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="QFN50P500X500X100-33N">
+<wire x1="-2.3" y1="2.5" x2="-2.5" y2="2.3" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="2.3" x2="-2.5" y2="2.2" width="0.2" layer="21"/>
+<wire x1="-2.3" y1="2.5" x2="-2.2" y2="2.5" width="0.2" layer="21"/>
+<wire x1="2.2" y1="2.5" x2="2.5" y2="2.5" width="0.2" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="2.2" width="0.2" layer="21"/>
+<wire x1="2.5" y1="-2.2" x2="2.5" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="2.2" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="-2.2" x2="-2.5" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.2" y2="-2.5" width="0.2" layer="21"/>
+<polygon width="0.2" layer="21">
+<vertex x="-3.6" y="1.8" curve="-90"/>
+<vertex x="-3.5" y="1.9" curve="-90"/>
+<vertex x="-3.4" y="1.8" curve="-90"/>
+<vertex x="-3.5" y="1.7" curve="-90"/>
+</polygon>
+<circle x="-3.5" y="1.8" radius="0.223606" width="0.2" layer="21"/>
+<wire x1="-3.15" y1="3.15" x2="3.15" y2="3.15" width="0.05" layer="39"/>
+<wire x1="3.15" y1="3.15" x2="3.15" y2="-3.15" width="0.05" layer="39"/>
+<wire x1="3.15" y1="-3.15" x2="-3.15" y2="-3.15" width="0.05" layer="39"/>
+<wire x1="-3.15" y1="-3.15" x2="-3.15" y2="3.15" width="0.05" layer="39"/>
+<text x="-2.04003" y="3.81006" size="1.27002" layer="25">&gt;NAME</text>
+<text x="-2.54126" y="-5.08253" size="1.27063" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.02797" y1="-1.02797" x2="1.027" y2="1.027" layer="31"/>
+<smd name="1" x="-2.45" y="1.75" dx="0.85" dy="0.3" layer="1" roundness="100"/>
+<smd name="2" x="-2.45" y="1.25" dx="0.85" dy="0.3" layer="1" roundness="100"/>
+<smd name="3" x="-2.45" y="0.75" dx="0.85" dy="0.3" layer="1" roundness="100"/>
+<smd name="4" x="-2.45" y="0.25" dx="0.85" dy="0.3" layer="1" roundness="100"/>
+<smd name="5" x="-2.45" y="-0.25" dx="0.85" dy="0.3" layer="1" roundness="100"/>
+<smd name="6" x="-2.45" y="-0.75" dx="0.85" dy="0.3" layer="1" roundness="100"/>
+<smd name="7" x="-2.45" y="-1.25" dx="0.85" dy="0.3" layer="1" roundness="100"/>
+<smd name="8" x="-2.45" y="-1.75" dx="0.85" dy="0.3" layer="1" roundness="100"/>
+<smd name="9" x="-1.75" y="-2.45" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="10" x="-1.25" y="-2.45" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="11" x="-0.75" y="-2.45" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="12" x="-0.25" y="-2.45" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="13" x="0.25" y="-2.45" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="14" x="0.75" y="-2.45" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="15" x="1.25" y="-2.45" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="16" x="1.75" y="-2.45" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="17" x="2.45" y="-1.75" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R180"/>
+<smd name="18" x="2.45" y="-1.25" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R180"/>
+<smd name="19" x="2.45" y="-0.75" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R180"/>
+<smd name="20" x="2.45" y="-0.25" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R180"/>
+<smd name="21" x="2.45" y="0.25" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R180"/>
+<smd name="22" x="2.45" y="0.75" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R180"/>
+<smd name="23" x="2.45" y="1.25" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R180"/>
+<smd name="24" x="2.45" y="1.75" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R180"/>
+<smd name="25" x="1.75" y="2.45" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R270"/>
+<smd name="26" x="1.25" y="2.45" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R270"/>
+<smd name="27" x="0.75" y="2.45" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R270"/>
+<smd name="28" x="0.25" y="2.45" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R270"/>
+<smd name="29" x="-0.25" y="2.45" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R270"/>
+<smd name="30" x="-0.75" y="2.45" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R270"/>
+<smd name="31" x="-1.25" y="2.45" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R270"/>
+<smd name="32" x="-1.75" y="2.45" dx="0.85" dy="0.3" layer="1" roundness="100" rot="R270"/>
+<smd name="33" x="0" y="0" dx="3.25" dy="3.25" layer="1" roundness="10" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MFRC52201HN1,151">
+<wire x1="-22.86" y1="-25.4" x2="22.86" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-25.4" x2="22.86" y2="25.4" width="0.254" layer="94"/>
+<wire x1="22.86" y1="25.4" x2="-22.86" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="25.4" x2="-22.86" y2="-25.4" width="0.254" layer="94"/>
+<text x="-22.8739" y="26.6862" size="1.77908" layer="95">&gt;NAME</text>
+<text x="-22.9029" y="-27.9925" size="1.78134" layer="96">&gt;VALUE</text>
+<pin name="I2C" x="-25.4" y="22.86" length="short" direction="in"/>
+<pin name="NRSTPD" x="-25.4" y="20.32" length="short" direction="in"/>
+<pin name="MFIN" x="-25.4" y="17.78" length="short" direction="in"/>
+<pin name="RX" x="-25.4" y="12.7" length="short" direction="in"/>
+<pin name="OSCIN" x="-25.4" y="10.16" length="short" direction="in"/>
+<pin name="EA" x="-25.4" y="7.62" length="short" direction="in"/>
+<pin name="SDA/NSS/RX" x="-25.4" y="5.08" length="short"/>
+<pin name="D1/ADR_5" x="-25.4" y="2.54" length="short"/>
+<pin name="D2/ADR_4" x="-25.4" y="0" length="short"/>
+<pin name="D3/ADR_3" x="-25.4" y="-2.54" length="short"/>
+<pin name="D4/ADR_2" x="-25.4" y="-5.08" length="short"/>
+<pin name="D5/ADR_1/SCK/DTRQ" x="-25.4" y="-7.62" length="short"/>
+<pin name="D6/ADR_0/MOSI/MX" x="-25.4" y="-10.16" length="short"/>
+<pin name="D7/SCL/MISO/TX" x="-25.4" y="-12.7" length="short"/>
+<pin name="MFOUT" x="25.4" y="-7.62" length="short" direction="out" rot="R180"/>
+<pin name="TX1" x="25.4" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="TX2" x="25.4" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="AUX1" x="25.4" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="AUX2" x="25.4" y="0" length="short" direction="out" rot="R180"/>
+<pin name="OSCOUT" x="25.4" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="IRQ" x="25.4" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="PVDD" x="25.4" y="10.16" length="short" direction="pwr" rot="R180"/>
+<pin name="DVDD" x="25.4" y="12.7" length="short" direction="pwr" rot="R180"/>
+<pin name="DVSS" x="25.4" y="-22.86" length="short" direction="pwr" rot="R180"/>
+<pin name="PVSS" x="25.4" y="-20.32" length="short" direction="pwr" rot="R180"/>
+<pin name="SVDD" x="25.4" y="15.24" length="short" direction="pwr" rot="R180"/>
+<pin name="TVSS" x="25.4" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<pin name="TVDD" x="25.4" y="17.78" length="short" direction="pwr" rot="R180"/>
+<pin name="TVSS@1" x="25.4" y="-17.78" length="short" direction="pwr" rot="R180"/>
+<pin name="AVDD" x="25.4" y="20.32" length="short" direction="pwr" rot="R180"/>
+<pin name="VMID" x="25.4" y="22.86" length="short" direction="pwr" rot="R180"/>
+<pin name="AVSS" x="25.4" y="-12.7" length="short" direction="pwr" rot="R180"/>
+<pin name="EXP" x="25.4" y="-10.16" length="short" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MFRC52201HN1,151" prefix="U">
+<description>MFRC52201 Series 1.6 V - 3.6 V IC Smart Card Reader - VQFN-32</description>
+<gates>
+<gate name="G$1" symbol="MFRC52201HN1,151" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN50P500X500X100-33N">
+<connects>
+<connect gate="G$1" pin="AUX1" pad="19"/>
+<connect gate="G$1" pin="AUX2" pad="20"/>
+<connect gate="G$1" pin="AVDD" pad="15"/>
+<connect gate="G$1" pin="AVSS" pad="18"/>
+<connect gate="G$1" pin="D1/ADR_5" pad="25"/>
+<connect gate="G$1" pin="D2/ADR_4" pad="26"/>
+<connect gate="G$1" pin="D3/ADR_3" pad="27"/>
+<connect gate="G$1" pin="D4/ADR_2" pad="28"/>
+<connect gate="G$1" pin="D5/ADR_1/SCK/DTRQ" pad="29"/>
+<connect gate="G$1" pin="D6/ADR_0/MOSI/MX" pad="30"/>
+<connect gate="G$1" pin="D7/SCL/MISO/TX" pad="31"/>
+<connect gate="G$1" pin="DVDD" pad="3"/>
+<connect gate="G$1" pin="DVSS" pad="4"/>
+<connect gate="G$1" pin="EA" pad="32"/>
+<connect gate="G$1" pin="EXP" pad="33"/>
+<connect gate="G$1" pin="I2C" pad="1"/>
+<connect gate="G$1" pin="IRQ" pad="23"/>
+<connect gate="G$1" pin="MFIN" pad="7"/>
+<connect gate="G$1" pin="MFOUT" pad="8"/>
+<connect gate="G$1" pin="NRSTPD" pad="6"/>
+<connect gate="G$1" pin="OSCIN" pad="21"/>
+<connect gate="G$1" pin="OSCOUT" pad="22"/>
+<connect gate="G$1" pin="PVDD" pad="2"/>
+<connect gate="G$1" pin="PVSS" pad="5"/>
+<connect gate="G$1" pin="RX" pad="17"/>
+<connect gate="G$1" pin="SDA/NSS/RX" pad="24"/>
+<connect gate="G$1" pin="SVDD" pad="9"/>
+<connect gate="G$1" pin="TVDD" pad="12"/>
+<connect gate="G$1" pin="TVSS" pad="10"/>
+<connect gate="G$1" pin="TVSS@1" pad="14"/>
+<connect gate="G$1" pin="TX1" pad="11"/>
+<connect gate="G$1" pin="TX2" pad="13"/>
+<connect gate="G$1" pin="VMID" pad="16"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Availability" value="Good"/>
+<attribute name="Package" value="HVQFN-32 NXP Semiconductors"/>
+<attribute name="Price" value="4.36 USD"/>
+<attribute name="MP" value="MFRC52201HN1,151"/>
+<attribute name="Description" value="MFRC52201 Series 1.6 V - 3.6 V IC Smart Card Reader - VQFN-32"/>
+<attribute name="MF" value="NXP Semiconductors"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

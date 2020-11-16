@@ -1,0 +1,109 @@
+﻿<Window x:Class="SdCardManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SdCArdManager"
+        mc:Ignorable="d"
+        Title="typewriter1 Password Manager SLARK GmbH" Height="450" Width="800" MinHeight="400" MinWidth="520" Loaded="Window_Loaded" Icon="Favicon.png" Closing="Window_Closing">
+    <Window.Resources>
+        <Style x:Key="MyWaterMarkStyle" TargetType="{x:Type TextBox}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBox}">
+                        <Grid>
+                            <Border Background="White" BorderBrush="#FF7D8683" BorderThickness="0"/>
+                            <ScrollViewer x:Name="PART_ContentHost" Margin="5,0,0,0" VerticalAlignment="Center" />
+                            <Label Margin="0,0,0,0" x:Name="WaterMarkLabel" Content="{TemplateBinding Tag}" VerticalAlignment="Center"
+                               Visibility="Collapsed" Foreground="#77777777" FontFamily="Arial"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <MultiTrigger>
+                                <MultiTrigger.Conditions>
+                                    <Condition Property="Text" Value=""/>
+                                </MultiTrigger.Conditions>
+                                <Setter Property="Visibility" TargetName="WaterMarkLabel" Value="Visible"/>
+                            </MultiTrigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Foreground" Value="DimGray"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid x:Name="mainGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*">
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="*">
+
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120">
+
+            </RowDefinition>
+            <RowDefinition Height="40">
+
+            </RowDefinition>
+            <RowDefinition Height="*">
+
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="0" Grid.Row="0" Background="White" Margin="0" x:Name="panelMain">
+            <CheckBox x:Name="cbUserName" Width="120" Content="Create User Name" IsChecked="True" Checked="CheckBox_Checked" Unchecked="cbUserName_Unchecked" HorizontalAlignment="Left" Padding="4,-1,0,0" Margin="8,8,0,0"/>
+            <StackPanel Orientation="Horizontal" x:Name="panelEntry" Margin="8,0,0,0">
+                <Border BorderBrush="{x:Null}" Height="30" Width="120">
+                    <TextBlock TextWrapping="Wrap" Text="Entry Name:" VerticalAlignment="Top" Margin="0,7,0,0"/>
+                </Border>
+                <TextBox Height="30" x:Name="txtEntry" Width="200" MaxLength="200" Style="{StaticResource MyWaterMarkStyle}" Tag="Enter entry name…"></TextBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" x:Name="panelUserName" Margin="8,0,0,0">
+                <Border BorderBrush="{x:Null}" Height="30" Width="120">
+                    <TextBlock TextWrapping="Wrap" Text="User Name:" VerticalAlignment="Top" Margin="0,7,0,0"/>
+                </Border>
+                <TextBox Height="30" x:Name="txtUsername" Width="200" Style="{StaticResource MyWaterMarkStyle}" Tag="Enter username…"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" x:Name="panelLength" Margin="8,0,0,0">
+                <Border BorderBrush="{x:Null}" Height="30" Width="120">
+                    <TextBlock TextWrapping="Wrap" Text="Length:" VerticalAlignment="Top" Margin="0,7,0,0"/>
+                </Border>
+                <TextBox Height="30" x:Name="txtLength" Width="200" Style="{StaticResource MyWaterMarkStyle}" Tag="Enter password length…" MaxLength="3"></TextBox>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel x:Name="panelButtons" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal" Margin="8,4,0,0">
+            <StackPanel>
+                <CheckBox Width="120" x:Name="cbAdvanced" Content="Advanced" IsChecked="True" Checked="cbAdvanced_Checked" Unchecked="cbAdvanced_Unchecked" HorizontalAlignment="Left" />
+                <CheckBox Width="120" x:Name="cbShowPasswords" Content="Show passwords" IsChecked="True" HorizontalAlignment="Left" Checked="cbShowPasswords_Checked" Unchecked="cbShowPasswords_Checked" />
+            </StackPanel>
+            <Button x:Name="btnCreatePassword" Padding="5,1" Click="btnCreatePassword_Click" >Create new password</Button>
+            <Button x:Name="btnAdvanced" Padding="5,1" Margin="10,0,0,0" Content="Settings" Click="btnAdvanced_Click" />
+            <Button x:Name="btnRefresh" Padding="5,1" Margin="10,0,0,0" Click="btnRefresh_Click" Content="Reload list of files" />
+        </StackPanel>
+        <Image Grid.Column="1" Grid.Row="0" Source="Typewriter1_Logo_Schwarz.png" Height="85" />
+
+        <DataGrid Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="2"  x:Name="gridFiles"  ScrollViewer.CanContentScroll="True" CanUserAddRows="False"
+      ScrollViewer.VerticalScrollBarVisibility="Auto" MinWidth="433" ScrollViewer.HorizontalScrollBarVisibility="Auto"  AutoGenerateColumns="False" Width="Auto" HorizontalAlignment="Left" CellEditEnding="gridFiles_CellEditEnding" Sorting="gridFiles_Sorting" BeginningEdit="gridFiles_BeginningEdit" Margin="0,4,0,0" Background="{x:Null}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Path=DisplayName}" IsReadOnly="False" MinWidth="100" />
+                <DataGridTextColumn Header="Type" Binding="{Binding Path=FileType}" Width="70" IsReadOnly="False"/>
+                <DataGridTemplateColumn >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="Button_Click" Tag="{Binding Path=FullPath}" >Delete</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Age" Binding="{Binding Path=Age}" Width="50" IsReadOnly="True" />
+                <DataGridTextColumn Header="Length" Binding="{Binding Path=Length}" Width="80"  IsReadOnly="True"/>
+                <DataGridTextColumn Header="Data" Binding="{Binding Path=Content}" MinWidth="100" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBlock Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2"  x:Name="labelNoFiles" Text="No files found" Visibility="Collapsed" Margin="0,20,0,0" FontSize="24" TextAlignment="Center" />
+
+    </Grid>
+</Window>
